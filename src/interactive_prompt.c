@@ -7,7 +7,7 @@
 int main(int argc, char const *argv[])
 {
     /* Print Version and Exit Information */
-    puts("Lispy Version 0.0.0.0.1");
+    puts("LispMath Version 0.0.0.0.1");
     puts("Press '/exit' to Exit\n");
 
     int exit_command;
@@ -39,5 +39,4 @@ int main(int argc, char const *argv[])
         free(input);
     }
 
-    return 0;
 }
